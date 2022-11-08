@@ -1,0 +1,24 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open_Assignment1": "npx cypress open --env ENVIRONMENT=Assignment1",
+    "cypress:run_Assignment1": "npx cypress run --env ENVIRONMENT=Assignment1",
+    "cypress:open_Assignment2&3": "npx cypress open --env ENVIRONMENT=Assignment2and3",
+    "cypress:run_Assignment2&3": "npx cypress run --env ENVIRONMENT=Assignment2and3",
+    "cypress:open_CinchTests": "npx cypress open --env ENVIRONMENT=CinchTests",
+    "cypress:run_CinchTests": "npx cypress run --env ENVIRONMENT=CinchTests",
+    "cypress:open_ExamAppTests": "npx cypress open --env ENVIRONMENT=ExamAppTests",
+    "cypress:run_ExamAppTests": "npx cypress run --env ENVIRONMENT=ExamAppTests",
+    "cypress:open": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.3.1",
+    "cypress-iframe": "^1.0.1"
+  }
+}

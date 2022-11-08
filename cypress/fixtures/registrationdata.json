@@ -1,0 +1,16 @@
+{
+    "firstname":"saim",
+    "lastname":"jahangir",
+    "address":"village keri raiki post office kalabagh dict tehsil abbottabad",
+    "city":"Abbottabad",
+    "state":"Hazara",
+    "zipcode":"22010",
+    "phoneNumber":"+923049933487",
+    "ssn":"AAA-GG-SSSS",
+    "existing_username": "saim123",
+    "username": "sssaim_12345",
+    "new_user":"saimm1123456",
+    "password": "abc123abc123",
+    "confirm": "abc123abc123",
+    "mismatchPassword":"abcdef123123"
+}

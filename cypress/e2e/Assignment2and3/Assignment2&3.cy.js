@@ -1,9 +1,11 @@
 /// <reference types = "cypress" />
 import Regristration from '../PageObjectsAssg2&3/Registration'
+import Login from '../Assignment2and3/Login'
 
 describe('Assignment 2 & 3 Testcases',function()
 {
     const Register = new Regristration()
+    const login = new Login()
     before(function () {
         cy.visit('/parabank/register.htm')
         cy.fixture('registrationdata').then(function (reginfo) {
@@ -31,12 +33,12 @@ describe('Assignment 2 & 3 Testcases',function()
     Register.getConfirm().type(this.reginfo.mismatchPassword)
     Register.getRegisterButton().click()
     Register.getUserAlreadyExist().should('have.text','Passwords did not match.')
-    cy.reload(true)
     Register.getUserName().clear().type(this.reginfo.new_user)
     Register.getPassword().type(this.reginfo.password)
     Register.getConfirm().type(this.reginfo.confirm)
-    cy.wait(500)
     Register.getRegisterButton().click()
+    login.getusername().type(this.reginfo.lusername)
+    
 
 
 

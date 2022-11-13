@@ -9,8 +9,10 @@
     "ssn":"AAA-GG-SSSS",
     "existing_username": "saim123",
     "username": "sssaim_12345",
-    "new_user":"saimm1123456",
+    "new_user":"saim@12",
     "password": "abc123abc123",
     "confirm": "abc123abc123",
-    "mismatchPassword":"abcdef123123"
+    "mismatchPassword":"abcdef123123",
+    "lusername":"saim12",
+    "pass":"saim12"
 }

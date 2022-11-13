@@ -31,3 +31,15 @@ Cypress.Commands.add('ClearSection', () => {
     cy.get('.sc-dFdIVH').click()
 
   })
+  Cypress.Commands.add('LogOut', () => {
+    cy.contains('Log Out').click()
+
+  })
+  Cypress.Commands.add('LogIn', () => {
+    cy.visit('/parabank/index.htm?ConnType=JDBC')
+    cy.get('input[name="username"]').type('aaa')
+    cy.get('input[name="password"]').type('aaa')
+    cy.get('input[value="Log In"]').click()
+
+  })
+  

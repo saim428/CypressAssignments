@@ -1,5 +1,8 @@
 class Regristration
 {
+getRegisterationButton(){
+    return cy.get('#loginPanel > :nth-child(3) > a')
+}
 getFirstName()
 {
     return cy.get('input[name="customer.firstName"]')
